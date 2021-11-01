@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Visitor Form</title>
+    <script src="js/client_side.js"></script>
+</head>
+<body>
+
+    <h2>JavaScript Validation</h2>
+
+    <div>
+      <ul class="error"> </ul>
+    </div>
+    <form name="myForm" action="saveUser" method="POST">
+        First Name: <input type="text" name="fname" required placeholder="First name">
+        <br>
+        Last Name: <input type="text" name="lname" required placeholder="Last name">
+        <br>
+        Address: <input type="text" name="faddy" required placeholder="Street, Apt, Zipcode">
+        <br>
+        Phone: <input type="number" name="fphone" required placeholder="XXXXXXXXX">
+        <br>
+        Email: <input type="email" name="femail" required placeholder="example123@gmail.com">
+        <br>
+        <p>
+            Select your favorite candy
+            <select type="text" value="" name="fcandy">
+                <option></option>
+                <option>Kit Kat</option>
+                <option>Skittles</option>
+                <option>Snickers</option>
+                <option>Twix</option>
+                <option>Twizzlers</option>
+            </select>
+        </p>
+        <br>
+        Comments: <textarea cols="55" name="fcomment"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset" name="Reset">
+    </form>
+
+</body>
+</html>
