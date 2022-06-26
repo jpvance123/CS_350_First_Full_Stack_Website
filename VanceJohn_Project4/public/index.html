@@ -1,51 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>John's Index!</title>
-</head>
-<body class="green_background">
-    <h1 class="heading_purple">John Vance's Website Directory</h1>
-    <p>
-        Welcome to my home directory page. From here you can access my Sketchy Bio, and new user forum for now. More coming soon.
-    </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>John Vance Personal Wesbite</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="./assets/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body class="one">
+    <nav class="navbar navbar-light bg-light justify-content-center position-relative">
+      <ul class="nav nav-pills nav-fill">
+        <li class="navbar-brand">
+          <a
+            class="navbar-brand"
+            href="https://www.linkedin.com/in/congrats-you-have-made-it/"
+          >
+            <img src="./assets/images/logo.png" alt="John Vance"
+          /></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Bio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./summer_schedule.html">Summer Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./visitor.html">Visitor Forum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./video_audio.html">Favorite Media</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./shape_game.html">Shape Game</a>
+        </li>
+      </ul>
+    </nav>
 
+      <div class="p-4 p-md-5 mb-4 mt-1 text-black-50 rounded "  >
+        <div class="justify-content-center">
+          <h1 class="display-4 text-primary fst-italic text-xl-center">Welcome to my first Website!</h1>
+          <p class="lead my-3 text-primary text-center">Summer CS350 Web Applications Personal Website at SIUC.<br/><strong>Technologies Used:</strong> <br/> Node.js, Html5, CSS, and BootStrap. </p>
+          <p class="lead mb-0"><a href="https://www.linkedin.com/in/congrats-you-have-made-it/" class="text-success fw-bold">Click Here to learn more about John Vance...</a></p>
+        </div>
+      </div>
+      </div>
+      
+      <section class="py-5 mb-3 text-center container rounded" id="sectionzz">
+        <div class="row py-lg-5 " >
+          <div class="col-lg-10 col-md-12 mx-auto">
+            <h1 class="fw-light">Photo's of My Favorite Trip!</h1>
+            <p class="lead text-success">I was lucky enough to go on a cruise this past summer, and per requirments for this assignment here are some great pictures from the trip!</p>
+            <p>
+              <a href="https://twitter.com/JPVSolutions" class="btn btn-primary my-2">View my Twitter Account</a>
+              <a href="https://www.instagram.com/jpvance123" class="btn btn-secondary my-2">View my Instagram Account</a>
+            </p>
+          </div>
+        </div>
+      </section>
 
-
-    <h2 class="heading_purple">Web Pages</h2>
-
-    <ul>
-        <li><a href="sketchy_bio.html" target="_blank">Sketchy Bio</a></li>
-        <li><a href="summer_schedule.html" target="_blank">Summer Schedule</a></li>
-        <li><a href="visitor_form.html" target="_blank">Visitor Forum</a></li>
-        <li><a href="video_audio.html" target="_blank">Favorite Video and Audio Clip</a></li>
-        <li><a href="shape_game.html" target="_blank">Shape Game</a></li>
-    </ul>
-
-        <h2 class="heading_purple" align="Center">
-            Help me pick an OS!</h2>
-                <figure align="center">
-                    <img src="pictures/linux_vs_windows.jpg" alt="Linux vs. Windows Image">
-                    <figcaption class="heading_purple">Who do you favor?</figcaption>
-                </figure>
-
-                <footer class="heading_purple">
-                    <p>
-                        Author: John Vance<br>
-                        <a href="https://www.linkedin.com/in/john-vance-94864b17b/" target="_blank">Linkden</a><br>
-                    </p>
-
-                    <form>
-                        <input type="radio" id="Linux" value="Linux">
-                        <label for="Linux">Linux</label><br>
-                        <input type="radio" id="Windows" value="Windows">
-                        <label for="Windows">Windows</label><br>
-                        <input type="submit" value="Submit"><br>
-                        <input type="reset"><br>
-
-                    </form>
-
-                </footer>
-
-</body>
+      <article class="mt-5">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+              <img src="./assets/images/putput.JPG" alt="ProfilePic" class="imgForCar">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Please enjoy some photos from this amazing vacation!</h5>
+                <p>A special thanks to the love of my life Kimberly Hobbs. You mean the world to me baby.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="./assets/images/cruiseship.JPG" alt="ProfilePic" class="imgForCar">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="./assets/images/cruiseship2.JPG" alt="ProfilePic" class="imgForCar">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="./assets/images/cruisshipkiss.JPG" alt="ProfilePic" class="imgForCar">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="./assets/images/lobby2.JPG" alt="ProfilePic" class="imgForCar">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="./assets/images/stayforeverkiss.JPG" alt="ProfilePic" class="imgForCar">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="./assets/images/piggyBack.JPG" alt="ProfilePic" class="imgForCar">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </article>    
+    <script
+      src="./assets/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
 </html>

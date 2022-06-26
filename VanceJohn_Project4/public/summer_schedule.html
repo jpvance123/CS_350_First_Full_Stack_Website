@@ -1,136 +1,298 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Summer Schedule</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            text-align: center;
-        }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/tables.css" />
+  </head>
+  <body class="2">
+    <nav
+      class="navbar navbar-light bg-light justify-content-center position-relative"
+    >
+      <ul class="nav nav-pills nav-fill">
+        <li class="navbar-brand">
+          <a
+            class="navbar-brand"
+            href="https://www.linkedin.com/in/congrats-you-have-made-it/"
+          >
+            <img src="./assets/images/logo.png" alt="John Vance"
+          /></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Bio</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="./summer_schedule.html"
+            >Summer Schedule</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./visitor.html">Visitor Forum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./video_audio.html">Favorite Media</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./shape_game.html">Shape Game</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1 class="text-center"> Summer 2021 Schedule</h1>
+      <div class="timetable-img text-center">
+        <img src="img/content/timetable.png" alt="" />
+      </div>
+      <div class="table-responsive">
+        <table class="table table-bordered text-center">
+          <thead>
+            <tr class="bg-light-gray">
+              <th class="text-uppercase">Time</th>
+              <th class="text-uppercase">Monday</th>
+              <th class="text-uppercase">Tuesday</th>
+              <th class="text-uppercase">Wednesday</th>
+              <th class="text-uppercase">Thursday</th>
+              <th class="text-uppercase">Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="align-middle">6:00am</td>
+              <td>
+                <span
+                  class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Workout A</span
+                >
+                <div class="margin-10px-top font-size14">6:15-7:30</div>
+                <div class="font-size13 text-light-gray">Chest, Back</div>
+              </td>
+              <td>
+                <span
+                  class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Workout B</span
+                >
+                <div class="margin-10px-top font-size14">6:15-7:30</div>
+                <div class="font-size13 text-light-gray">Legs, Cardio</div>
+              </td>
 
-        ul.a {
-            position: relative;
-            display: inline-block;
-            list-style-type: none;
-            width: 100%;
-            text-align: center;
-            margin: auto;
-            padding: 0;
-        }
-    </style>
-</head>
-<body align="center" class="green_background">
+              <td>
+                <span
+                  class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Workout A</span
+                >
+                <div class="margin-10px-top font-size14">6:15-7:30</div>
+                <div class="font-size13 text-light-gray">Shoulders, Biceps</div>
+              </td>
+              <td>
+                <span
+                  class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Workout B</span
+                >
+                <div class="margin-10px-top font-size14">6:15-7:30</div>
+                <div class="font-size13 text-light-gray">Abs, Cardio</div>
+              </td>
+              <td>
+                <span
+                  class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Workout A</span
+                >
+                <div class="margin-10px-top font-size14">6:15-7:30</div>
+                <div class="font-size13 text-light-gray">Chest, Back</div>
+              </td>
+            </tr>
 
-    <h1>John Vance's Summer Schedule 2021</h1>
+            <tr>
+              <td class="align-middle">8:00- <br />12:00pm</td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">8:15-11:45</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">8:15-11:45</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
 
-    <table align="center">
-        <caption>Summer Schedule 2021</caption>
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wedensday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-                <th>Saturday</th>
-                <th>Sunday</th>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">8:15-11:45</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">8:15-11:45</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">8:15-11:45</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>5:45 a.m. <br>-<br> 7:45 a.m.</th>
-                <td>Workout A</td>
-                <td> Workout B</td>
-                <td>Workout A</td>
-                <td> Workout B</td>
-                <td>Workout A</td>
-                <td>Sleeping In!</td>
-                <td>Sleeping In!</td>
-            </tr>
-            <tr>
-                <th>8 a.m. <br>-<br> 11: 30 a.m.</th>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Disc Golf</td>
-                <td>Disc Golf</td>
-            </tr>
-            <tr>
-                <th>11:30 a.m. <br>-<br> 12:30 p.m.</th>
-                <td>Lunch</td>
-                <td>Lunch</td>
-                <td>Lunch</td>
-                <td>Lunch</td>
-                <td>Lunch</td>
-                <td>Lunch</td>
-                <td>Lunch</td>
-            </tr>
-            <tr>
-                <th>12:30 p.m. <br>-<br> 4:30 p.m.</th>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Work</td>
-                <td>Swim/Hike/Outdoors</td>
-                <td>HomeWork/Studying</td>
-            </tr>
-            <tr>
-                <th>4:30 p.m. <br>-<br> 6:30 p.m.</th>
-                <td>Homework/<br>Studying</td>
-                <td>Homework/<br>Studying</td>
-                <td>Homework/<br>Studying</td>
-                <td>Homework/<br>Studying</td>
-                <td>Homework/<br>Studying</td>
-                <td>Relax</td>
-                <td>Relax</td>
-            </tr>
-            <tr>
-                <th>6:30 p.m. <br>-<br> 7:30 p.m.</th>
-                <td>Dinner</td>
-                <td>Dinner</td>
-                <td>Dinner</td>
-                <td>Dinner</td>
-                <td>Dinner</td>
-                <td>Dinner</td>
-                <td>Dinner</td>
-            </tr>
-            <tr>
-                <th>7:30 p.m. <br>-<br> 10:00 p.m.</th>
-                <td>Relax and prepare<br> for next day</td>
-                <td>Relax and prepare<br> for next day</td>
-                <td>Relax and prepare<br> for next day</td>
-                <td>Relax and prepare<br> for next day</td>
-                <td>Relax and prepare<br> for next day</td>
-                <td>Relax and prepare<br> for next day</td>
-                <td>Relax and prepare<br> for next day</td>
-            </tr>
-            <tr>
-                <th>10 p.m. <br>-<br> 5:45 a.m.</th>
-                <td>Counting Sheep</td>
-                <td>Counting Sheep</td>
-                <td>Counting Sheep</td>
-                <td>Counting Sheep</td>
-                <td>Counting Sheep</td>
-                <td>Counting Sheep</td>
-                <td>Counting Sheep</td>
-            </tr>
-        </tbody>
-    </table>
 
-    <footer>
-        <h2 align="center">Classes I'm currently enrolled in are as followed.</h2>
-        <ul class="a">
-            <li>CS391 <strong>Current Topics in CS (Python)</strong></li>
-            <li>CS350 <strong>Web Applicaiton Development</strong></li>
-            <li>CS406 <strong>Basic Linux System Admin</strong></li>
-            <li>BIO202 <strong>Human Genetics and Health</strong></li>
-            <li>CS393 <strong>Internship in Comp Science</strong></li>
-        </ul>
-    </footer>
-</body>
+            <tr>
+              <td class="align-middle">12:00-<br/>1:00pm</td>
+              <td>
+                <span
+                  class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Lunch</span
+                >
+                <div class="margin-10px-top font-size14">12:00-12:30</div>
+                <div class="font-size13 text-light-gray">Packed Lunch</div>
+              </td>
+              <td>
+                <span
+                  class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Lunch</span
+                >
+                <div class="margin-10px-top font-size14">12:00-12:45</div>
+                <div class="font-size13 text-light-gray">Lunch Date</div>
+              </td>
+
+              <td>
+                <span
+                  class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Lunch</span
+                >
+                <div class="margin-10px-top font-size14">12:00-12:50</div>
+                <div class="font-size13 text-light-gray">Packed Lunch</div>
+              </td>
+              <td>
+                <span
+                  class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Lunch</span
+                >
+                <div class="margin-10px-top font-size14">12:00-12:30</div>
+                <div class="font-size13 text-light-gray">Packed Lunch</div>
+              </td>
+              <td>
+                <span
+                  class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Lunch</span
+                >
+                <div class="margin-10px-top font-size14">12:00-12:45</div>
+                <div class="font-size13 text-light-gray">Lunch Date</div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="align-middle">1:00-<br/>5:00pm</td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">12:15-5:00</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">12:15-5:00</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">12:15-5:00</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">12:15-5:00</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+              <td>
+                <span
+                  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >Work</span
+                >
+                <div class="margin-10px-top font-size14">12:15-5:00</div>
+                <div class="font-size13 text-light-gray">Software Developer Internship</div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="align-middle">5:00-<br/>7:00pm</td>
+              <td>
+                <span
+                  class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >CS391</span
+                >
+                <div class="margin-10px-top font-size14">5:00-6:15</div>
+                <div class="font-size13 text-light-gray">Current Topics in CS (Python)</div>
+              </td>
+              <td>
+                <span
+                  class="bg-danger padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >CS350</span
+                >
+                <div class="margin-10px-top font-size14">5:00-6:30</div>
+                <div class="font-size13 text-light-gray">Web Applicaiton Development</div>
+              </td>
+
+              <td>
+                <span
+                  class="bg-orange padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >CS406</span
+                >
+                <div class="margin-10px-top font-size14">05:00-7:00</div>
+                <div class="font-size13 text-light-gray">Linux Adminstration</div>
+              </td>
+              <td>
+                <span
+                  class="bg-danger padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >CS350</span
+                >
+                <div class="margin-10px-top font-size14">5:00-6:30</div>
+                <div class="font-size13 text-light-gray">Web Applicaiton Development</div>
+              </td>
+              <td>
+                <span
+                  class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13"
+                  >CS391</span
+                >
+                <div class="margin-10px-top font-size14">5:00-6:15</div>
+                <div class="font-size13 text-light-gray">Current Topics in CS (Python)</div>
+              </td>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
